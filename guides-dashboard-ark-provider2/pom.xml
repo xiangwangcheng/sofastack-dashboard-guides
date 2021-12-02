@@ -9,7 +9,7 @@
         <version>2.1.2.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0.0</version>
     <artifactId>guides-dashboard-ark-provider2</artifactId>
 
     <dependencies>
