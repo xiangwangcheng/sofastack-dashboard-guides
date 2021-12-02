@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Implementation-Title: guides-dashboard-ark-provider
+web-context-path: /
+Implementation-Version: 1.0.1
+Built-By: tongjing
+Ark-Biz-Name: guides-dashboard-ark-provider
+Implementation-Vendor-Id: io.sofastack
+deny-import-packages: 
+priority: 200
+Main-Class: io.sofastack.ark.provider.ArkProviderApplication
+deny-import-classes: 
+deny-import-resources: 
+Ark-Biz-Version: 1.0.1
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_271
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/sofaboot-dependencies/sofastack-dashboard-guides/gu
+ ides-dashboard-ark-provider
+

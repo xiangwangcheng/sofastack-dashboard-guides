@@ -15,6 +15,7 @@
         <dependency>
             <groupId>io.sofastack</groupId>
             <artifactId>guides-dashboard-facade</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
@@ -24,58 +25,26 @@
 
         <dependency>
             <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-springboot-starter</artifactId>
+            <artifactId>sofa-ark-all</artifactId>
+            <version>1.1.5</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>web-ark-plugin</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>config-ark-plugin</artifactId>
-            <version>0.6.0</version>
+            <version>1.1.5</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-common</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-exception</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-spi</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-archive</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-container</artifactId>
-            <version>0.6.0</version>
-        </dependency>
 
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>runtime-sofa-boot-plugin</artifactId>
+            <version>3.4.6</version>
         </dependency>
 
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>healthcheck-sofa-boot-starter</artifactId>
+            <version>3.1.4</version>
         </dependency>
 
         <dependency>
@@ -85,18 +54,14 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>dashboard-ext-redis-store</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
             <artifactId>curator-client</artifactId>
             <groupId>org.apache.curator</groupId>
+            <version>2.9.1</version>
         </dependency>
         <dependency>
             <artifactId>curator-framework</artifactId>
             <groupId>org.apache.curator</groupId>
+            <version>2.9.1</version>
         </dependency>
 
     </dependencies>
@@ -106,7 +71,7 @@
             <plugin>
                 <groupId>com.alipay.sofa</groupId>
                 <artifactId>sofa-ark-maven-plugin</artifactId>
-                <version>0.6.0</version>
+                <version>1.1.5</version>
                 <executions>
                     <execution>
                         <id>default-cli</id>

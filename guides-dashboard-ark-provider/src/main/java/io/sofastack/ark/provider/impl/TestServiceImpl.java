@@ -14,6 +14,6 @@ public class TestServiceImpl implements TestFacade {
 
     @Override
     public String test() {
-        return "this is test facade impl";
+        return "this is test facade impl---version 1.0.1";
     }
 }

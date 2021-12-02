@@ -9,6 +9,7 @@
         <module>guides-dashboard-service-consumer</module>
         <module>guides-dashboard-service-provider</module>
         <module>guides-dashboard-ark-provider</module>
+        <module>guides-dashboard-ark-provider2</module>
         <module>guides-dashboard-ark-master</module>
     </modules>
     <parent>
@@ -68,24 +69,24 @@
            <dependency>
                <groupId>com.alipay.sofa</groupId>
                <artifactId>web-ark-plugin</artifactId>
-               <version>0.6.0</version>
+               <version>1.1.5</version>
            </dependency>
            <dependency>
                <groupId>com.alipay.sofa</groupId>
                <artifactId>config-ark-plugin</artifactId>
-               <version>0.6.0</version>
+               <version>1.1.5</version>
            </dependency>
 
            <dependency>
                <groupId>com.alipay.sofa</groupId>
                <artifactId>sofa-ark-spi</artifactId>
-               <version>0.6.0</version>
+               <version>1.1.5</version>
            </dependency>
 
            <dependency>
                <groupId>com.alipay.sofa</groupId>
                <artifactId>sofa-ark-springboot-starter</artifactId>
-               <version>0.6.0</version>
+               <version>1.1.5</version>
            </dependency>
 
            <!--SOFARegistry 依赖-->
